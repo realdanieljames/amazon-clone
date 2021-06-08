@@ -5,11 +5,16 @@ import { useSelector } from "react-redux";
 import { selectItems, selectTotal } from "../slices/basketSlice";
 import Currency from "react-currency-formatter";
 import { useSession } from "next-auth/client";
+import {loadStripe} from "@stripe/stripe-js"
+const stripePromise = loadStripe()
 
 function checkout() {
 const items = useSelector(selectItems);
 const total = useSelector(selectTotal);
 const [session] = useSession();
+
+const createCheckoutSession =()=>{}
+
 return (
     <div className="bg-gray-100">
     <Header />
