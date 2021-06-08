@@ -586,6 +586,11 @@
   "resolved" "https://registry.npmjs.org/@sqltools/formatter/-/formatter-1.2.3.tgz"
   "version" "1.2.3"
 
+"@stripe/stripe-js@^1.15.0":
+  "integrity" "sha512-KQsNPc+uVQkc8dewwz1A6uHOWeU2cWoZyNIbsx5mtmperr5TPxw4u8M20WOa22n6zmIOh/zLdzEe8DYK/0IjBw=="
+  "resolved" "https://registry.npmjs.org/@stripe/stripe-js/-/stripe-js-1.15.0.tgz"
+  "version" "1.15.0"
+
 "@tailwindcss/line-clamp@^0.2.0":
   "integrity" "sha512-+jXSdRK3/9V/BCPCr+iNpMMhxWMMv62vn/AS2b3/ClmueGuhCijW3bUwO1IiHnE7uCaF74Sli8jUCv9djwvpLg=="
   "resolved" "https://registry.npmjs.org/@tailwindcss/line-clamp/-/line-clamp-0.2.0.tgz"
@@ -853,6 +858,13 @@
   "version" "1.0.2"
   dependencies:
     "array-filter" "^1.0.0"
+
+"axios@^0.21.1":
+  "integrity" "sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA=="
+  "resolved" "https://registry.npmjs.org/axios/-/axios-0.21.1.tgz"
+  "version" "0.21.1"
+  dependencies:
+    "follow-redirects" "^1.10.0"
 
 "babel-plugin-syntax-jsx@6.18.0":
   "integrity" "sha1-CvMqmm4Tyno/1QaeYtew9Y0NiUY="
@@ -1695,6 +1707,11 @@
     "@firebase/remote-config" "0.1.38"
     "@firebase/storage" "0.5.3"
     "@firebase/util" "1.1.0"
+
+"follow-redirects@^1.10.0":
+  "integrity" "sha512-HWqDgT7ZEkqRzBvc2s64vSZ/hfOceEol3ac/7tKwzuvEyWx3/4UegXh5oBOIotkGsObyk3xznnSRVADBgWSQVg=="
+  "resolved" "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.14.1.tgz"
+  "version" "1.14.1"
 
 "foreach@^2.0.5":
   "integrity" "sha1-C+4AUBiusmDQo6865ljdATbsG5k="
