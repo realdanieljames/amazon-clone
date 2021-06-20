@@ -14,6 +14,7 @@ export default function Home({products}) {
       </Head>
 
       {/* Header */}
+      
       <Header />
       <main className="max-w-screen-2xl mx-auto">
         {/* Baner */}
