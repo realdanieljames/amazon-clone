@@ -23,7 +23,8 @@ return (
         <div className="mt-2 flex items-center flex-grow sm:flex-grow-0">
         <Image
             onClick={()=> router.push('/')}
-            src="https://links.papareact.com/f90"
+            // src="https://links.papareact.com/f90"
+            src="https://raw.githubusercontent.com/realdanieljames/portfolio/main/public/logo.jpg"
             width={150}
             height={40}
             objectFit="contain"
